@@ -1,6 +1,6 @@
 # TSP Solver
 
-This code provides a solver for the Traveling Salesman Problem (TSP). The TSP is a classic optimization problem where the goal is to find the shortest possible route that visits a set of cities and returns to the starting city.
+This code provides a solver for the Traveling Salesman Problem (TSP) using Genetic Algorithm. The TSP is a classic optimization problem where the goal is to find the shortest possible route that visits a set of cities and returns to the starting city.
 
 ## Dependencies
 
