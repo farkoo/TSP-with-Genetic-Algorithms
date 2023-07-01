@@ -28,13 +28,13 @@ tsp_solver = TSPSolver(
 )
 ```
 
-`city_coordinates` (list of tuples): The coordinates of the cities in the TSP problem.
-`population_size` (int): The size of the population in each generation.
-`mutation_rate` (float): The probability of a mutation occurring during crossover.
-`crossover_rate` (float): The probability of crossover occurring between two parents.
-`num_generations` (int): The number of generations to run the genetic algorithm.
-`crossover_type` (string): The type of crossover to use. Options are 'ordered' and 'cycle'.
-`survivor_selection_type` (string): The type of survivor selection to use. Options are 'plus' and 'comma'.
+* `city_coordinates` (list of tuples): The coordinates of the cities in the TSP problem.
+* `population_size` (int): The size of the population in each generation.
+* `mutation_rate` (float): The probability of a mutation occurring during crossover.
+* `crossover_rate` (float): The probability of crossover occurring between two parents.
+* `num_generations` (int): The number of generations to run the genetic algorithm.
+* `crossover_type` (string): The type of crossover to use. Options are 'ordered' and 'cycle'.
+* `survivor_selection_type` (string): The type of survivor selection to use. Options are 'plus' and 'comma'.
 
 ### Solving the TSP
 To solve the TSP problem, call the solve_tsp() method on the TSPSolver instance:
@@ -47,7 +47,7 @@ This method returns the best solution found, which is a list representing the or
 ### Additional Functions
 The code provides two additional utility functions:
 
-`read_city_coordinates(file_path)`
+1. `read_city_coordinates(file_path)`
 This function reads the city coordinates from a file and returns them as a NumPy array.
 ```python
 city_coordinates = read_city_coordinates(file_path)
@@ -55,7 +55,7 @@ city_coordinates = read_city_coordinates(file_path)
 `file_path` (string): The path to the file containing the city coordinates.
 
 
-`read_numbers_from_file(file_path)`
+2. `read_numbers_from_file(file_path)`
 This function reads a list of numbers from a file and returns them as a list.
 ```python
 numbers = read_numbers_from_file(file_path)
